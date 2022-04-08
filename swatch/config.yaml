@@ -1,14 +1,13 @@
-name: Frigate NVR
-version: "3.1"
-panel_icon: "mdi:cctv"
-panel_title: Frigate
-slug: frigate
-description: NVR with realtime local object detection for IP cameras
-url: "https://github.com/blakeblackshear/frigate"
+name: Swatch
+version: "1.0.0"
+panel_icon: "mdi:palette"
+panel_title: Swatch
+slug: swatch
+description: Color detection in images to capture presense of known objects.
+url: "https://github.com/NickM-27/swatch"
 startup: application
 boot: auto
-webui: "http://[HOST]:[PORT:5000]/"
-watchdog: "http://[HOST]:[PORT:5000]/"
+webui: "http://[HOST]:[PORT:4500]/"
 ingress: true
 ingress_port: 4500
 ingress_entry: /
