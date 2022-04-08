@@ -1,0 +1,34 @@
+name: Frigate NVR
+version: "3.1"
+panel_icon: "mdi:cctv"
+panel_title: Frigate
+slug: frigate
+description: NVR with realtime local object detection for IP cameras
+url: "https://github.com/blakeblackshear/frigate"
+startup: application
+boot: auto
+webui: "http://[HOST]:[PORT:5000]/"
+watchdog: "http://[HOST]:[PORT:5000]/"
+ingress: true
+ingress_port: 4500
+ingress_entry: /
+panel_admin: false
+ports:
+  4500/tcp: 5000
+ports_description:
+  4500/tcp: API
+host_network: false
+usb: false
+tmpfs: true
+full_access: false
+environment:
+  CONFIG_FILE: /config/swatch.yml
+options: {}
+schema: {}
+arch:
+  - amd64
+  - armv7
+  - aarch64
+map:
+  - "media:rw"
+  - "config:rw"
