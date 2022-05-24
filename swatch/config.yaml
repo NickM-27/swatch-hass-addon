@@ -22,6 +22,7 @@ tmpfs: true
 full_access: false
 environment:
   CONFIG_FILE: /config/swatch.yml
+  DB_FILE: /media/swatch.db
 options: {}
 schema: {}
 arch:
