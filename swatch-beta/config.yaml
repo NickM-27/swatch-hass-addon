@@ -1,5 +1,5 @@
 name: Swatch
-version: "2.2.0"
+version: "2.2.1"
 panel_icon: "mdi:palette"
 panel_title: Swatch
 slug: swatch
@@ -22,7 +22,7 @@ tmpfs: true
 full_access: false
 environment:
   CONFIG_FILE: /config/swatch.yml
-  DB_FILE: /media/swatch.db
+  DB_FILE: /media/swatch/swatch.db
 options: {}
 schema: {}
 arch:
