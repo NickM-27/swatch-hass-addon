@@ -1,5 +1,5 @@
 name: Swatch
-version: "2.2.1"
+version: "2.2.2"
 panel_icon: "mdi:palette"
 panel_title: Swatch
 slug: swatch
@@ -13,7 +13,7 @@ ingress_port: 4500
 ingress_entry: /
 panel_admin: false
 ports:
-  4500/tcp: 5000
+  4500/tcp: 4500
 ports_description:
   4500/tcp: API
 host_network: false
@@ -22,6 +22,7 @@ tmpfs: true
 full_access: false
 environment:
   CONFIG_FILE: /config/swatch.yml
+  MEDIA_DIR: /media/swatch
   DB_FILE: /media/swatch/swatch.db
 options: {}
 schema: {}
