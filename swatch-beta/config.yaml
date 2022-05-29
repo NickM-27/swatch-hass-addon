@@ -1,5 +1,5 @@
 name: Swatch
-version: "2.2.3"
+version: "3.0.0-beta1"
 panel_icon: "mdi:palette"
 panel_title: Swatch
 slug: swatch
