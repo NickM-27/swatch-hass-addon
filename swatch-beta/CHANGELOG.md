@@ -1,5 +1,9 @@
 # Versions
 
+## 3.0.1
+
+Fix resetting end time bug
+
 ## 3.0.0
 
 Objects are now tested based on bounding boxes that are created around clusters of pixels.
