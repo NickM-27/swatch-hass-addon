@@ -1,5 +1,9 @@
 # Versions
 
+## 3.0.2
+
+Fix db path creation
+
 ## 3.0.1
 
 Fix end time being updated for finished events

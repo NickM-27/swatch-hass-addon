@@ -1,5 +1,9 @@
 # Versions
 
+## 3.0.2
+
+Fix db path creation bug
+
 ## 3.0.1
 
 Fix resetting end time bug
