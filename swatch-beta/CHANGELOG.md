@@ -1,5 +1,9 @@
 # Versions
 
+## 3.0.3
+
+Fix crash when only one variant exists
+
 ## 3.0.2
 
 Fix db path creation bug
