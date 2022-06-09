@@ -1,5 +1,9 @@
 # Versions
 
+## 3.0.4
+
+Fix crash where no object result is returned due to bad image
+
 ## 3.0.3
 
 Fix crash when only one variant is named
