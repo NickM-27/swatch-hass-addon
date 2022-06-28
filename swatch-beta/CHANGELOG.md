@@ -1,5 +1,9 @@
 # Versions
 
+## 3.1.0
+
+Remove docker image so backups take up less space
+
 ## 3.0.4
 
 Fix crash when no object result is returned due to bad image.
