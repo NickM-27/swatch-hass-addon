@@ -1,1 +1,0 @@
-FROM crzynik/swatch:latest

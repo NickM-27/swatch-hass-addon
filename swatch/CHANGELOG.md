@@ -1,5 +1,9 @@
 # Versions
 
+## 3.1.0
+
+Adjust config so no dockerfile image is needed to be kept in backups
+
 ## 3.0.4
 
 Fix crash where no object result is returned due to bad image
