@@ -9,7 +9,7 @@ image: crzynik/swatch
 startup: application
 boot: auto
 webui: "http://[HOST]:[PORT:4500]/"
-ingress: true
+ingress: false
 ingress_port: 4500
 ingress_entry: /
 panel_admin: false
